@@ -190,6 +190,7 @@ label input, label span {
 	text-align: center;
 }
 code {
+	display: inline-block;
 	font-family: 'IBM Plex Mono', monospace;
 	background: #FF9878;
 	color: #93513D;
