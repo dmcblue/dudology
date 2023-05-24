@@ -1,5 +1,32 @@
 # dudology
 
+This tool calculates probabilities for bids in the game [dudo](https://en.wikipedia.org/wiki/Dudo)
+
+## Dev
+
+This repo uses PHP and [Composer](https://getcomposer.org/).
+
+Set up by cloning the repo and running:
+
+```
+composer install
+cp .env.template .env
+```
+
+Then you can build the site with:
+
+```
+composer run build
+```
+
+And serve it to port `8040` with:
+
+```
+composer run serve
+```
+
+You will need to rebuild after each change. You can change the port number by adjusting the `.env` file as well as the Composer `serve` script in `composer.json`.
+
 ## References
 
 https://www.omnicalculator.com/statistics/dice#how-to-calculate-dice-roll-probability
