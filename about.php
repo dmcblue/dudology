@@ -4,6 +4,20 @@
 				This tool calculates probabilities for bids in the game 
 				<a href="https://en.wikipedia.org/wiki/Dudo" target="_blank">dudo</a>
 			</div>
+			<div>
+				The <strong>cut</strong> feature refers to the ability to,
+				rather than raising a bid,
+				to change the bid value to 1 and cut the # of dice in half. For example,
+				a current bid for 3 dice of 7 pipes can be followed by a bid of 2 dice of 1 pip.
+			</div>
+			<div>
+				<strong>uncut</strong> refers to the ability to, after the bids have been cut
+				in a round, to undo the cut by raising the # of pips above 1 then doubling the
+				# of dice and adding 1.
+			</div>
+			<div>
+				Bids can only be <strong>cut</strong> and <strong>uncut</strong> once per round.
+			</div>
 			<h2>Math</h2>
 			<div>
 				The probability of a dudo bid is <strong>P</strong> where:
