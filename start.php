@@ -36,7 +36,7 @@
 			<meta property="og:title" content="<?= $SITE_NAME ?>" />
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="<?= $BASE_URL; ?>/" />
-			<meta property="og:image" content="<?= $BASE_URL; ?>/images/opengraph.png" />
+			<meta property="og:image" content="<?= $BASE_URL; ?>/opengraph.png" />
 			<meta property="og:description" content="<?= $DESCRIPTION; ?>" />
 			<meta property="og:locale" content="en_US" />
 			
@@ -48,10 +48,10 @@
 			<meta name="twitter:creator" content="@dmcblue">
 			<meta name="twitter:title" content="dmcblue">
 			<meta name="twitter:description" content="<?= $DESCRIPTION; ?>">
-			<meta name="twitter:image" content="<?= $BASE_URL; ?>/images/opengraph.png">
+			<meta name="twitter:image" content="<?= $BASE_URL; ?>/opengraph.png">
 			<!-- END TwitterCard -->
 			<!-- Json LD -->
-			<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"<?= $JSON_BASE_URL; ?>","url":"<?= $JSON_BASE_URL; ?>","name":"<?= $SITE_NAME ?>","publisher":{"@id":"http:\/\/www.dmcblue.com"}},{"@type":"ImageObject","@id":"<?= $JSON_BASE_URL; ?>\/images\/opengraph.png","url":"<?= $JSON_BASE_URL; ?>\/images\/opengraph.png","width":1273,"height":775},{"@type":"WebPage","@id":"<?= $JSON_BASE_URL; ?>\/","url":"<?= $JSON_BASE_URL; ?>\/","inLanguage":"en-US","name":"dmcblue","isPartOf":{"@id":"<?= $JSON_BASE_URL; ?>"},"primaryImageOfPage":{"@id":"<?= $JSON_BASE_URL; ?>\/images\/opengraph.png"},"datePublished":null,"dateModified":null},{"@type":"Article","@id":"<?= $JSON_BASE_URL; ?>\/","isPartOf":{"@id":"<?= $JSON_BASE_URL; ?>\/"},"author":{"@id":"http:\/\/www.dmcblue.com"},"headline":"dmcblue","datePublished":null,"dateModified":null,"commentCount":0,"mainEntityOfPage":{"@id":"<?= $JSON_BASE_URL; ?>\/"},"publisher":{"@id":"http:\/\/www.dmcblue.com"},"image":{"@id":"<?= $JSON_BASE_URL; ?>\/images\/opengraph.png"},"keywords":"","articleSection":""},{"@type":["Person"],"@id":"http:\/\/www.dmcblue.com","name":"dmcblue","image":{"@type":"ImageObject","@id":"\/images\/opengraph.png","url":"\/images\/opengraph.png","caption":"dmcblue"},"sameAs":[]}]}</script>
+			<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"<?= $JSON_BASE_URL; ?>","url":"<?= $JSON_BASE_URL; ?>","name":"<?= $SITE_NAME ?>","publisher":{"@id":"http:\/\/www.dmcblue.com"}},{"@type":"ImageObject","@id":"<?= $JSON_BASE_URL; ?>\/opengraph.png","url":"<?= $JSON_BASE_URL; ?>\/opengraph.png","width":1273,"height":775},{"@type":"WebPage","@id":"<?= $JSON_BASE_URL; ?>\/","url":"<?= $JSON_BASE_URL; ?>\/","inLanguage":"en-US","name":"dmcblue","isPartOf":{"@id":"<?= $JSON_BASE_URL; ?>"},"primaryImageOfPage":{"@id":"<?= $JSON_BASE_URL; ?>\/opengraph.png"},"datePublished":null,"dateModified":null},{"@type":"Article","@id":"<?= $JSON_BASE_URL; ?>\/","isPartOf":{"@id":"<?= $JSON_BASE_URL; ?>\/"},"author":{"@id":"http:\/\/www.dmcblue.com"},"headline":"dmcblue","datePublished":null,"dateModified":null,"commentCount":0,"mainEntityOfPage":{"@id":"<?= $JSON_BASE_URL; ?>\/"},"publisher":{"@id":"http:\/\/www.dmcblue.com"},"image":{"@id":"<?= $JSON_BASE_URL; ?>\/opengraph.png"},"keywords":"","articleSection":""},{"@type":["Person"],"@id":"http:\/\/www.dmcblue.com","name":"dmcblue","image":{"@type":"ImageObject","@id":"\/opengraph.png","url":"\/opengraph.png","caption":"dmcblue"},"sameAs":[]}]}</script>
 			<!-- END Json LD -->
 		<!-- END Metadata -->
 

@@ -17,3 +17,5 @@ $page = ob_get_contents();
 ob_end_clean();
 $path = "public/about.html";
 file_put_contents($path, $page);
+
+copy('opengraph.png', "public/opengraph.png");
