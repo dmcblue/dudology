@@ -132,7 +132,7 @@ button {
 	border: 1px solid #B39439;
 	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
 	margin: 0.5em;
-	padding: 0.5em;
+	padding: 0.5em 0.75em;
 }
 button:last-child {
 	margin-right: 0;
